@@ -1,0 +1,11 @@
+.app-header{
+    @apply w-full h-[80px] bg-white flex items-center px-2 shadow-md sticky top-0 z-10;
+  }
+  
+  .app-header__nav-container{
+    @apply flex items-start justify-center gap-5 ml-3 text-[#777777] hover:text-[#333333];
+  }
+  
+  .actions{
+    @apply flex-1 flex justify-end gap-3;
+  }
