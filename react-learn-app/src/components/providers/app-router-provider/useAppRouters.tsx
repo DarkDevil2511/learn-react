@@ -16,7 +16,10 @@ import UseReducerPageView from "../../../views/react-learn-pages/pages/hooks-pag
 import UseRefPageView from "../../../views/react-learn-pages/pages/hooks-page/useRef";
 import UseStatePageView from "../../../views/react-learn-pages/pages/hooks-page/useState";
 import ReactLearnPage from "../../../pages/react-learn-page";
-
+// import LibraryPage from "src/pages/react-learn-page/pages/library-page";
+// import ReduxPage from "src/pages/react-learn-page/pages/library-page/pages/redux-page";
+// import ReduxBasicUsage from "src/views/react-learn-pages/pages/library-pages/pages/redux-page/basic-usage";
+// import ReduxGeneralPage from "src/views/react-learn-pages/pages/library-pages/pages/redux-page/general";
 
 function useAppRouter() {
     const routerObject = createBrowserRouter([
@@ -82,6 +85,32 @@ function useAppRouter() {
                                 },
                             ],
                         },
+                        // {
+						// 	path: AppConfig.router.reactLearn.children.library.path,
+						// 	element: <LibraryPage />,
+						// 	children: [
+						// 		{
+						// 			path: AppConfig.router.reactLearn.children.library.children.redux.path,
+						// 			element: <ReduxPage />,
+						// 			children: [
+						// 				{
+						// 					path: '',
+						// 					element: <ReduxGeneralPage />,
+						// 				},
+						// 				{
+						// 					path: AppConfig.router.reactLearn.children.library.children.redux.children
+						// 						.basic.path,
+						// 					element: <ReduxBasicUsage />,
+						// 				},
+						// 				{
+						// 					path: AppConfig.router.reactLearn.children.library.children.redux.children
+						// 						.advance.path,
+						// 					element: <ReduxBasicUsage />,
+						// 				},
+						// 			],
+						// 		},
+                        //     ],
+                        // },
                     ],
                 },
                 {

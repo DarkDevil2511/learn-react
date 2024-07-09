@@ -1,6 +1,7 @@
 import { Button } from "@mantine/core";
 import { useAppModal } from "../../app-model/store/useAppModel";
 import AuthModalContent from "../auth-model-content";
+import ThemeSwitch from "../../theme-switch";
 
 
 function AuthNavbarButtons() {
@@ -31,6 +32,7 @@ function AuthNavbarButtons() {
         <Button variant="filled" size="xs" onClick={handleSignupClick}>
             Sign up
         </Button>
+        <ThemeSwitch />
         </>
     )
 }

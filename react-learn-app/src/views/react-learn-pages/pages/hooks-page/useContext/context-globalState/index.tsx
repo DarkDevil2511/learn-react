@@ -8,13 +8,13 @@ function UseContextWithGlobalState() {
 	const { state, dispatch } = useAppStore()
 
 	const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-		if (e.target.value === '') return
+		// if (e.target.value === '' ) return
 		dispatch({ type: ActionTypes.INPUT_CHANGE, payload: e.target.value })
 	}
 
 	const handlePressEnterKey = (e: KeyboardEvent<HTMLInputElement>) => {
-		if (state.todoInput === '') return
-		if (e.key === 'Enter') {
+		if (e.key === 'Enter' && state.todoInput !== '' ) 
+		{
 			dispatch({ type: ActionTypes.INPUT_CHANGE, payload: '' })
 			dispatch({ type: ActionTypes.ADD_TODO, payload: { name: state.todoInput, status: false } })
 		}

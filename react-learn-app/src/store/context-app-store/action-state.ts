@@ -21,7 +21,7 @@ export const globalStateHandler = (state: IGlobalStateContext, action: IGlobalSt
             state.todoList.push(action.payload)
             return { ...state }
         case ActionTypes.DELETE_TODO:
-            state.todoList.slice(action.payload.index, 1)
+            state.todoList.splice(action.payload.index, 1)
             return { ...state }
         case ActionTypes.MARK_TODO_AS_DONE:
             state.todoList[action.payload.index].status = !state.todoList[action.payload.index].status

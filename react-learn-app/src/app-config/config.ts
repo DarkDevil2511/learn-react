@@ -76,30 +76,30 @@ export default Object.freeze({
 								},
 							},
 						},
-				// 		reactQuery: {
-				// 			path: 'react-query',
-				// 			innerText: 'React Query',
-				// 			children: {
-				// 				basic: {
-				// 					path: 'basic',
-				// 					innerText: 'Basic',
-				// 				},
-				// 				queryFetching: {
-				// 					path: 'query-fetching',
-				// 					innerText: 'queryFetching',
-				// 				},
-				// 			},
-				// 		},
-				// 		tanstackTable: {
-				// 			path: 'tanstack-table',
-				// 			innerText: 'Tanstack Table',
-				// 			children: {
-				// 				basic: {
-				// 					path: 'basic',
-				// 					innerText: 'Basic Table',
-				// 				},
-				// 			},
-				// 		},
+						reactQuery: {
+							path: 'react-query',
+							innerText: 'React Query',
+							children: {
+								basic: {
+									path: 'basic',
+									innerText: 'Basic',
+								},
+								queryFetching: {
+									path: 'query-fetching',
+									innerText: 'queryFetching',
+								},
+							},
+						},
+						tanstackTable: {
+							path: 'tanstack-table',
+							innerText: 'Tanstack Table',
+							children: {
+								basic: {
+									path: 'basic',
+									innerText: 'Basic Table',
+								},
+							},
+						},
 					},
 				},
 			},

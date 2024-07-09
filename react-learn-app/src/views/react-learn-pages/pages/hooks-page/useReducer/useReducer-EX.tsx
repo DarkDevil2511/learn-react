@@ -30,7 +30,7 @@ function UseReducerEX() {
                 <RiSubtractLine />
             </Button>
             <h2 className="text-lg font-semibold">{ count }</h2>
-            <Button onClick={() => dispatch(UP_ACTION)}>
+            <Button onClick={() => dispatch(UP_ACTION)} radius="xs" size="xs" variant="filled">
                 <RiAddLine />
             </Button>
         </div>    

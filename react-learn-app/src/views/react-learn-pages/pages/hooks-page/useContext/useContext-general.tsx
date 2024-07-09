@@ -9,7 +9,7 @@ function UseContextGeneral() {
 				cần sử dụng props
 			</p>
 			<img
-				src="/assets/images/hooks/useContext/useContext_img.png"
+				src="/assets/videos/hooks/useContext/useContext_img.png"
 				alt="useContext_img"
 				width={350}
 				className="m-auto mt-2 rounded-md border border-dashed border-zinc-700"
