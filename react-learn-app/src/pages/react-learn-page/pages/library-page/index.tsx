@@ -1,7 +1,7 @@
-import LibraryPageView from "src/views/react-learn-pages/pages/library-pages";
+import LibraryPageView from "../../../../views/react-learn-pages/pages/library-pages";
 
 function LibraryPage() {
-    return <LibraryPageView />
+  return <LibraryPageView />;
 }
 
 export default LibraryPage;
